@@ -295,34 +295,19 @@ button .github2{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 80%;
-    justify-content: center;
+    width: 60%;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
-.html{
-    padding: 15%;
+.img-habilidades img{
     margin-bottom: 25px;
-    width: 1em;
-    height: 1em;
+    width: 5em;
+    height: 5em;
+    margin-bottom: 0;
 }
-.css{
-    padding: 15%;
-    margin-top: 20px;
-    width: 1em;
-    height: 1em;
-}
-.javascript{
-    padding: 15%;
-    width: 1em;
-    height: 1em;
-}
-.figma{
-    padding: 15%;
-    margin-top: 20px;
-    width: 1em;
-    height: 1em;
-}
+
 /* FIN HABILIDADES */
 /* INICIO FORMULARIO */
 .contact{
@@ -350,9 +335,8 @@ button .github2{
 .cajaformulario{
     display: flex;
     width: 70%;
-    height: 30px;
+    height: 70px;
     margin-top: 30px;
-   
     justify-content: center;
     align-items: center;
     padding: 20%;
