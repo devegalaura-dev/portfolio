@@ -331,12 +331,12 @@ button .github2{
     color: rgb(76, 1, 78);
     text-align: left;
     width: 100%;
+    margin-bottom: 0;
 }
 .cajaformulario{
     display: flex;
     width: 70%;
     height: 70px;
-    margin-top: 30px;
     justify-content: center;
     align-items: center;
     padding: 20%;
@@ -347,7 +347,7 @@ button .github2{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 30px;
     background-color: rgb(236, 236, 236);
 }
 .datosContact{
@@ -431,6 +431,7 @@ textarea.grande:active{
     width: 2rem;
     margin: 1rem;
     background-color: white;
+    transition: filter 0.3s;
 }
 .linea3{
     width: 100%;
