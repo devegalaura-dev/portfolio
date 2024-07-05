@@ -149,32 +149,30 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     width: 100vw;
+    position: relative; 
 }
-.btn-contact {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    font-size: 15px;
-    background-color: rgb(153, 10, 158);
+.contactame button{
+    border: none;
+}
+.contactame button a{
     color: white;
-    padding: 10px 20px;
+    text-decoration: none;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    align-items: center;
-    position: relative;
-    z-index: 2;
+    background-color: rgb(153, 10, 158);
+    padding: 10px 20px;
+    z-index: 5;
+    position: relative; 
 }
 .linea2 {
     width: 100%;
     height: 1px;
     background-color: #000;
     position: absolute; 
-    margin-top: 30px;
+    margin-top: 10px;
     z-index: 1;
 }
-.btn-contact:hover{
+.contactame button a:hover{
     background-color: #fa80f4;
     transition: 1s;
 }
