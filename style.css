@@ -112,6 +112,7 @@ nav ul li a:hover {
     justify-content: center;
     color: rgb(39, 37, 41);
 }
+/* BOTONES PROFILE */
 .buttons {
     display: flex;
     justify-content: center;
@@ -313,7 +314,6 @@ button .github2{
     height: 5em;
     margin-bottom: 0;
 }
-
 /* FIN HABILIDADES */
 /* INICIO FORMULARIO */
 .contact{
@@ -413,6 +413,8 @@ textarea.grande:active{
     transition: 1s;
     cursor: pointer;
 }
+/* FIN FORMULARIO */
+/* INICIO FOOTER */
 .footer{
     display: flex;
     justify-content: center;
@@ -420,7 +422,6 @@ textarea.grande:active{
     width: 100%;
     border: none;
     flex-direction: column;
-
 }
 .emoticonosFooter{
     display: flex;
@@ -451,6 +452,8 @@ textarea.grande:active{
     margin-bottom: 3%;
     z-index: 1;
 }
+/* FIN FOOTER */
+/* INICIO COPYRIGHT */
 .copyright{
     display: flex;
     justify-content: center;
@@ -461,3 +464,4 @@ textarea.grande:active{
     margin: 20px;
     color: rgb(114, 113, 113);
 }
+/* FIN COPYRIGHT */
